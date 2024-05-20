@@ -5,7 +5,7 @@ import pandas as Pd
 
 def run():
   Data = c_Read_Data.Read_CSV('Data.csv') # I need to change c_Read_Data to delete the import of this module
-  '''# SUSPENDIDO POR EL USO DE PANBAS
+  '''# STOPPED BY PANDAS MODULE
   Data = list(filter(lambda item: item['Continent'] == 'South America', Data)) # Filter the List Data, and return a List with the country that matches the Country parameter
   
   Countries = list(map(lambda X: X['Country/Territory'], Data))
