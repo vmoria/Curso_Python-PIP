@@ -6,3 +6,13 @@ To run the game you must follow the instructions bellow in the terminal:
 cd Game
 python3 main.py
 ```
+
+# APP PROJECT
+
+```sh
+git clone
+cd App
+source venv/bin/activate
+pip3 instal -r Requirements.txt
+python3 main.py
+```
